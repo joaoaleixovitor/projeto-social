@@ -6,40 +6,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
-    height: 100vh;
-    width: 100vw;
-}
-
-body {
-    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-main {
+main{
+    width: 100%;
+    height: 100%;
     position: relative;
-    height: 100vh;
 }
 
-section#tela {
-    background: url('../imagens/frame-iphone.png');
+section#frame {
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    position: absolute;
+     
+    left: 50%;
+    transform: translate(-50%, 0%);
+
     width: 311px;
     height: 627px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-section#apps {
-    size: 50px;
-}
-
-iframe#tela {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    width: 267px;
-    height: 472px;
 }
