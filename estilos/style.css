@@ -46,14 +46,18 @@ section#frame > iframe {
     border-radius: 28px;
 }
 
+section#apps {
+    text-align: right;
+}
+
 section#apps img {
-    position: absolute;
-    
-    top: 35px;
-    left: 556px;
-    margin-right: 8px;
-
+    margin: 5px 5px 0px 0px;
     width: 55px;
+    border-radius: 50%;
+}
 
-    border-radius: 10px;
+section#apps img:hover {
+    margin: 5px 5px 0px 0px;
+    width: 55px;
+    border-radius: 50%;
 }
